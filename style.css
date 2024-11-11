@@ -1,0 +1,54 @@
+/* style.css */
+
+/* Aplicando fonte Poppins em todo o site */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;  /* Aumentando o tamanho da fonte */
+    font-weight: 400;   /* Peso normal para o corpo do texto */
+    line-height: 1.8;   /* Espaçamento maior entre as linhas */
+    color: #333;        /* Cor do texto */
+    background-color: #f8f9fa; /* Fundo claro para o site */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;   /* Fontes mais grossas para títulos */
+    line-height: 1.4;   /* Menor espaçamento para títulos */
+}
+
+p, ul, li {
+    font-size: 1.4rem;  /* Aumento da fonte para melhor legibilidade */
+}
+
+/* Formatação das seções */
+section {
+    padding: 60px 0;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+}
+
+/* Ajustes do formulário de contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Adicionando bordas arredondadas aos quadros */
+blockquote {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Estilos para o gráfico */
+#autismoChart {
+    max-width: 80%;
+    margin: 0 auto;
+}
